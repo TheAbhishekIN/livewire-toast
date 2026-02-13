@@ -1,0 +1,25 @@
+{
+    "name": "theabhishekin/livewire-toast",
+    "description": "Sonner-style toast notifications for Laravel Livewire with Alpine.js",
+    "keywords": ["livewire", "toast", "sonner", "alpine", "notifications"],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0",
+        "livewire/livewire": "^3.0|^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheAbhishekIN\\LivewireToast\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TheAbhishekIN\\LivewireToast\\LivewireToastServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
