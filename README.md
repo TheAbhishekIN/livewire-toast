@@ -110,6 +110,10 @@ Edit `config/livewire-toast.php` after publishing:
 - `top-left`, `top-center`, `top-right`
 - `bottom-left`, `bottom-center`, `bottom-right`
 
-## Publishing
+## Contributing
 
-To publish as a package, ensure your `composer.json` has correct `autoload` and `extra.laravel.providers`.
+Contributions are welcome! Please feel free to submit a [Pull Request](https://github.com/TheAbhishekIN/livewire-toast/pulls).
+
+## Issues
+
+If you discover any bugs or have feature requests, please open an [issue](https://github.com/TheAbhishekIN/livewire-toast/issues) on GitHub.
